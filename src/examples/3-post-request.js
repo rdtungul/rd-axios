@@ -12,7 +12,7 @@ const PostRequest = () => {
 
     // axios req/res code
     try {
-      // const res = await axios.post(url, { name: name, email: email }) // v1 - no error in URL
+      // const res = await axios.post(url, { name: name, email: email }) // v1 - no error in URLs
       const res = await axios.post(url, { name, email }) // v2 - error in URL (400 - BAD REQUEST)
 
       console.log(res.data)
